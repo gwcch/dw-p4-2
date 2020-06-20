@@ -675,9 +675,9 @@ a {
     max-width: 520px;
     margin: auto auto auto auto;
 }
-
+/* Modification de la taille de p pour répondre SEO Mobile Friendly  */
 p {
-    font-size: 11px;
+    font-size: 12px; 
 }
 
 .tight-width-whitespace {
@@ -824,6 +824,14 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
+/* Ajout du style */
+#bloc-8 ul{
+    list-style: none;
+    padding-left: 0;
+    padding-bottom: 2px;
+    }
+
+/*--------------------------*/
 
 @media (max-width: 1024px) {
     .bloc {
