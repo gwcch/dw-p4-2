@@ -362,47 +362,6 @@ a:hover {
     z-index: 2;
 }
 
-@media (min-width: 768px) {
-    .site-navigation {
-        position: absolute;
-        top: 50%;
-        right: 20px;
-        transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
-    }
-    .nav > li .dropdown-menu a,
-    .nav > li .dropdown-menu a:hover {
-        color: #484848;
-    }
-    .nav-invert .site-navigation {
-        left: 0;
-        right: 0;
-    }
-    .nav-center {
-        text-align: center;
-    }
-    .nav-center .navbar-header {
-        width: 100%;
-    }
-    .nav-center .navbar-header,
-    .nav-center .navbar-brand,
-    .nav-center .nav > li {
-        float: none;
-        display: inline-block;
-    }
-    .nav-center .site-navigation {
-        position: relative;
-        width: 100%;
-        right: 0;
-        margin-right: 0px;
-        margin-top: 20px;
-    }
-    .nav-center.mini-nav .navbar-toggle {
-        float: none;
-        margin: 10px auto 0;
-    }
-}
-
 .nav > li > .dropdown a {
     background: none!important;
     display: block;
@@ -824,16 +783,99 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
-/* Ajout du style */
-#bloc-8 ul{
-    list-style: none;
-    padding-left: 0;
-    padding-bottom: 2px;
-    }
-
+/*--------------------------*/
+/* Bloc2 - Services */
+#bloc-2-services .services{
+    width: 45%;
+    margin: auto;
+}
+blockquote{
+    width: 55%;
+    margin: auto;
+}
+/* Bloc4 - Nos réalisations */
+#bloc-4-portfolio h2{
+    width: 45%;
+    margin: auto;
+}
+/* Bloc7 - Formulaire */
+input, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#form_1 {
+    width: 80%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 15px 50px;
+    margin: auto 10%;
+}
+/* Bloc7 - Carte */
+iframe{
+    width: 80%;
+    height: 420px;
+    margin: auto 10%;
+}
+#bloc-7 p {
+    text-align: center;
+    margin: 2%;
+}
 /*--------------------------*/
 
-@media (max-width: 1024px) {
+@media (min-width: 768px) {
+    .site-navigation {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translate(0, -50%);
+        -webkit-transform: translateY(-50%);
+    }
+
+    .nav>li .dropdown-menu a,
+    .nav>li .dropdown-menu a:hover {
+        color: #484848;
+    }
+
+    .nav-invert .site-navigation {
+        left: 0;
+        right: 0;
+    }
+
+    .nav-center {
+        text-align: center;
+    }
+
+    .nav-center .navbar-header {
+        width: 100%;
+    }
+
+    .nav-center .navbar-header,
+    .nav-center .navbar-brand,
+    .nav-center .nav>li {
+        float: none;
+        display: inline-block;
+    }
+
+    .nav-center .site-navigation {
+        position: relative;
+        width: 100%;
+        right: 0;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+
+    .nav-center.mini-nav .navbar-toggle {
+        float: none;
+        margin: 10px auto 0;
+    }
+}
+
+@media (max-width: 1024px){
     .bloc {
         padding-left: 20px;
         padding-right: 20px;
@@ -856,13 +898,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
