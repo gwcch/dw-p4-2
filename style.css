@@ -924,8 +924,7 @@ iframe{
         position: relative;
     }
     .bloc {
-        padding-left: env(safe-area-inset-left);
-        padding-right: env(safe-area-inset-right);
+        padding: constant(safe-area-inset-left) constant(safe-area-inset-right);
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -934,8 +933,7 @@ iframe{
     }
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
-        padding: constant(safe-area-inset-left) constant(safe-area-inset-right);
+        padding: constant(safe-area-inset-left, 20px) constant(safe-area-inset-right, 20px);
         /* padding-right: constant(safe-area-inset-right); */
     }
 }
