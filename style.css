@@ -818,6 +818,7 @@ input, textarea {
 }
 /* Bloc7 - Carte */
 iframe{
+    border:0;
     width: 80%;
     height: 420px;
     margin: auto 10%;
