@@ -320,9 +320,8 @@ button {
 }
 
 .portfolio-thumb {
-  margin-bottom: auto;
+  margin: auto;
 }
-
 .portfolio-row {
   margin-bottom: 44px;
   margin-top: 50px
