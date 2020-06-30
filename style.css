@@ -388,6 +388,9 @@ blockquote {
   margin: auto;
   padding: 0;
 }
+blockquote footer {
+  color: #000000;
+}
 
 #bloc-4-portfolio h2 {
   width: 65%;
