@@ -4,7 +4,7 @@ public
 sass
 package-lock.json
 package.json
-# css\bootstrap.min.css
+css\bootstrap.min.css
 .gitignore
 .gitattributes
 js\bootstrap.min.js
