@@ -9,3 +9,4 @@ css\bootstrap.min.css
 .gitattributes
 js\bootstrap.min.js
 js\jquery-2.1.0.min.js
+js\blocs.min.js
