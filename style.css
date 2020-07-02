@@ -425,6 +425,18 @@ iframe {
   text-align: center;
   margin: 2%
 }
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto
+}
+
+.img-responsive
+{
+  display:block;
+  max-width:100%;
+  height:auto
+}
 
 @media (min-width:768px) {
   .site-navigation {
