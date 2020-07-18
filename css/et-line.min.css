@@ -27,3 +27,23 @@
 .et-icon-edit:before {
   content: "\e01c"
 }
+
+.et-icon-map:before {
+  content: "\e025"
+}
+
+.et-icon-target:before {
+  content: "\e04e"
+}
+
+.et-icon-facebook:before {
+  content: "\e05d"
+}
+
+.et-icon-twitter:before {
+  content: "\e05e"
+}
+
+.et-icon-dribbble:before {
+  content: "\e063"
+}
