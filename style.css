@@ -376,7 +376,6 @@ button {
 }
 
 #bloc-2-services .services {
-  width: 65%;
   margin: auto
 }
 
@@ -385,7 +384,6 @@ blockquote {
   background-color: #FFF;
   width: 55%;
   margin: auto;
-  padding: 0;
 }
 blockquote footer {
   color: #000000;
