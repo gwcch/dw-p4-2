@@ -3,8 +3,6 @@ body {
   padding: 0;
   background: #FFF;
   overflow-x: hidden;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale
 }
 
 h1,
@@ -65,9 +63,6 @@ a[data-lightbox] {
   clear: both;
   background: 50% 50% no-repeat;
   padding: 0 50px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   position: relative
 }
@@ -91,9 +86,6 @@ a[data-lightbox] {
 
 .bg-t-edge,
 .bg-repeat {
-  -webkit-background-size: auto !important;
-  -moz-background-size: auto !important;
-  -o-background-size: auto !important;
   background-size: auto !important
 }
 
@@ -376,7 +368,6 @@ button {
 }
 
 #bloc-2-services .services {
-  width: 65%;
   margin: auto
 }
 
@@ -385,7 +376,6 @@ blockquote {
   background-color: #FFF;
   width: 55%;
   margin: auto;
-  padding: 0;
 }
 blockquote footer {
   color: #000000;
@@ -444,7 +434,6 @@ iframe {
     top: 50%;
     right: 20px;
     transform: translate(0, -50%);
-    -webkit-transform: translateY(-50%)
   }
 }
 
@@ -467,7 +456,7 @@ iframe {
   }
 }
 
-@media only screen and (min-width:1024px) and (max-width:1366px) and (-webkit-min-pixel-ratio:1.5) {
+@media only screen and (min-width:1024px) and (max-width:1366px) {
   .b-parallax {
     background-attachment: scroll
   }
@@ -512,8 +501,6 @@ iframe {
   .site-navigation {
     position: inherit;
     transform: none;
-    -webkit-transform: none;
-    -ms-transform: none
   }
 
   .nav>li {
@@ -532,7 +519,6 @@ iframe {
   .navbar-collapse {
     padding: 0;
     overflow-x: hidden;
-    -webkit-box-shadow: none;
     box-shadow: none
   }
 
